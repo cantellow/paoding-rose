@@ -36,7 +36,7 @@ project(':rose') {
     dependencies {
         compile project(':rose-context')
            testCompile "junit:junit:4.7"
-           compile "javax.servlet:servlet-api:2.4"
+           compile "javax.servlet:servlet-api:2.5"
            compile "commons-logging:commons-logging:1.1.1"
            compile "commons-lang:commons-lang:2.6"
            compile "commons-collections:commons-collections:3.2.1"
@@ -56,7 +56,7 @@ project(':rose') {
 project(':rose-context') {
     dependencies {
         testCompile "junit:junit:4.7"
-        compile "javax.servlet:servlet-api:2.4"
+        compile "javax.servlet:servlet-api:2.5"
         compile "commons-logging:commons-logging:1.1.1"
         compile "commons-lang:commons-lang:2.6"
         compile "commons-collections:commons-collections:3.2.1"
@@ -69,7 +69,7 @@ project(':rose-jade') {
     dependencies {
         compile project(':rose-context')
         testCompile "junit:junit:4.7"
-        compile "javax.servlet:servlet-api:2.4"
+        compile "javax.servlet:servlet-api:2.5"
         compile "commons-logging:commons-logging:1.1.1"
         compile "commons-lang:commons-lang:2.6"
         compile "commons-jexl:commons-jexl:1.1"
@@ -84,7 +84,7 @@ project(':rose-pipe') {
     dependencies {
         compile project(':rose')
         testCompile "junit:junit:4.7"
-        compile "javax.servlet:servlet-api:2.4"
+        compile "javax.servlet:servlet-api:2.5"
         compile "javax.servlet:jsp-api:2.0"
         compile "com.metaparadigm:json-rpc:1.0"
     }
